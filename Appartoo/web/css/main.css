@@ -1,0 +1,86 @@
+body
+{
+    background-color: white;
+    overflow: auto;
+}
+form
+{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: calc(50% - 150px);
+    border-radius:3px;
+}
+input
+{
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 5%;
+    margin-top: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    height: 33px;
+    border-radius:3px;
+    font-family: 'Roboto', sans-serif;
+
+}
+input[type="submit"]
+{
+    color: white;
+    background-color: #1e5a9b;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+
+}
+input[type="checkbox"]
+{
+width: 13px;
+    height:13px;
+}
+
+label
+{
+    position: relative;
+    left: 17px;
+    top: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+}
+label[for="fos_user_registration_form_age"]
+{
+    top: -37px;
+}
+#fos_user_registration_form_age
+{
+    left: -11px;
+    top: 0px;
+}
+img
+{
+    width: 100px;
+    height:100px;
+    position: absolute;
+    left: calc(50% - 50px);
+    top:5px;
+}
+a
+{
+position: relative;
+    top: 37px;
+    left:200px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #1e5a9b;
+}
+li,ul
+{
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    position: absolute;
+    z-index: 1;
+    width: 300px;
+    list-style: none;
+    left: 40px;
+}
+

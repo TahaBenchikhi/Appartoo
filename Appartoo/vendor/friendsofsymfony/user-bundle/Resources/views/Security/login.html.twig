@@ -1,0 +1,7 @@
+{% extends "@FOSUser/layout.html.twig" %}
+
+{% block fos_user_content %}
+    <img src="{{ asset('img/monkey.png') }}">
+    {{ include('@FOSUser/Security/login_content.html.twig') }}
+    <link rel="stylesheet" href="{{ asset('css/main.css') }}" />
+{% endblock fos_user_content %}
